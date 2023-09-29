@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+}
+
+.content-text{
+    width: 500px;
+}
+
+.content-text a{
+    text-decoration: none;
+    color: white;
+}
+
+.img-design img{
+    width: 900px;
+    height: 700px;
+}
+
+#features{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.form-design{
+    background-color: rosybrown;
+    border-radius: 20px;
+    margin: 550px;
+    width: 400px;
+    height: 400px;
+    border: black;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards{
+    margin: 50px;
+}
+
+#features{
+    margin-top:10px;
+    margin-bottom: 50px;
+}
+
+#features h1{
+    margin-bottom: 70px;
+}
+
+#team{
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+#team h1{
+    margin-bottom: 50px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+
+.footer-design {
+    max-width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box {
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+    background: white;
+    border-radius: 5px;
+  }

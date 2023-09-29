@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="static/dashboard/css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <title>Attrition - Dashboard</title>
+  </head>
+  <body>
+    <!-- The sidebar -->
+    <div class="sidebar">
+      <a href="#home">Home</a>
+      <a class="active" href="/analytics">Analytics</a>
+      <a href="/visualization">Visualization</a>
+      <a href="#departments">Departments</a>
+      <a href="/employee">Employee List</a>
+    </div>
+
+    <!-- Page content -->
+    <div class="content">
+      <h1 class="p-3">Attrition Analytics</h1>
+      <div class="mx-5">
+        <h3>
+          College Attrition Rate :
+          <span class="badge text-bg-warning">
+            <p>{{ attrition_rate }}%</p>
+          </span>
+        </h3>
+        <h3>
+          Severity : <span class="badge text-bg-danger"><p>{{ severity }}</p></span>
+        </h3>
+
+        <div class="alert alert-info mt-4" role="alert">
+            Attrition rate below 10% is considered as a safe state, whereas Attrition rate above 20% is a warning.
+        </div>
+      </div>
+
+      <div class="m-5">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Department</th>
+              <th scope="col">Attrition Rate</th>
+              <th scope="col">Severity</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Computer</td>
+              <td>{{comp_attrition_rate}}%</td>
+              <td>{{comp_severity}}</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>CSBS</td>
+              <td>{{csbs_attrition_rate}}%</td>
+              <td>{{csbs_severity}}</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>E & TC</td>
+              <td>30%</td>
+              <td>High</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>Electrical</td>
+              <td>3%</td>
+              <td>Low</td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>Mechnical</td>
+              <td>23%</td>
+              <td>High</td>
+            </tr>
+            <tr>
+              <th scope="row">6</th>
+              <td>Civil</td>
+              <td>40%</td>
+              <td>High</td>
+            </tr>
+            <tr>
+              <th scope="row">7</th>
+              <td>Automation and Robotics</td>
+              <td>20%</td>
+              <td>High</td>
+            </tr>
+            <tr>
+              <th scope="row">8</th>
+              <td>Electrical</td>
+              <td>10%</td>
+              <td>Low</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

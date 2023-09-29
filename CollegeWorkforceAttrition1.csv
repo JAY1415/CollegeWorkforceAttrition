@@ -1,0 +1,51 @@
+Gender,Qualification,Speciality,MaritalStatus,Salary,Department,Designation,YearOfJoining,WorkExperince,NoOfCollegesWorked,DistanceFromHome,DepartmentOvertime,WorkLifeBalance,YearSinceLastPromotion,WorkRelationshipSatisfaction,ResearchCulture,FacultyDevelopemnt,LadiesFacilities,FamilyMdeicalClaim,Insurance,YearlyLeaves,CompensationOffDays,IntentionToQuit
+Female,ME,Computer,1,2,Computer Engineering,Assistant Professor,2021,16,3,17.5,2,2,Yes,4,2,1,0,0,0,15,1,1
+Female,MTECH,Computer,1,2,Computer Engineering,Assistant Professor,2014,14,2,5,0,5,Yes,5,4,1,1,0,0,15,1,0
+Female,MTECH,Computer,1,2,Computer Engineering,Assistant Professor,2021,1.5,1,5,2,5,No,5,3,0,0,0,0,15,1,1
+Female,MTECH,Computer,1,1,Computer Engineering,Assistant Professor,2021,6,4,6,1,3,No,3,2,1,0,0,0,15,0,0
+Male,MTECH,Information Technology,1,2,Computer Engineering,Assistant Professor,2022,11.5,2,26,0,4,No,5,5,0,0,0,0,15,1,0
+Female,MTECH,Computer,1,1,Computer Engineering,Assistant Professor,2022,2.5,1,3.5,1,4,No,3,2,1,1,0,0,15,1,0
+Female,PHD ,Computer,1,4,CSBS,HOD,2005,22,3,12,1,3,No,4,2,1,1,1,1,15,0,0
+Female,MTECH,Computer,1,2,Computer Engineering,Assistant Professor,2014,8.4,1,3.5,2,5,No,5,4,1,1,1,0,15,1,0
+Female,MTECH,Computer,1,2,Computer Engineering,Assistant Professor,2016,10.5,4,8,1,2,No,4,4,1,0,0,1,15,1,0
+Female,PHD ,Computer,1,4,Computer Engineering,Assistant Professor,2002,22,3,27,1,3,Yes,4,3,1,1,0,0,15,1,0
+Male,MTECH,Computer,1,1,Computer Engineering,Assistant Professor,2022,3.5,3,3,0,5,No,5,4,1,1,0,0,15,1,0
+Female,MTECH,Information Technology,1,1,Computer Engineering,Assistant Professor,2022,9,4,5,1,5,No,5,3,1,0,0,0,15,1,0
+Female,ME,Computer,1,2,Computer Engineering,Assistant Professor,2017,12.4,4,5,5,5,No,5,4,1,1,0,0,15,0,0
+Female,PHD ,Computer,1,4,Computer Engineering,Associate professor,2019,17.5,2,3,2,4,Yes,5,3,1,0,0,0,15,1,0
+Female,MTECH,Computer,1,2,Computer Engineering,Associate professor,2015,13.6,2,4,0,5,No,5,2,0,1,1,0,15,0,0
+Female,PHD ,Computer,1,4,Computer Engineering,HOD,2017,26,6,7,2,4,Yes,5,2,1,1,0,1,15,1,0
+Male,PHD ,Computer,1,4,Computer Engineering,Assistant Professor,2021,23,3,30,1,4,Yes,5,3,1,0,0,0,15,0,0
+Female,MTECH,Computer,1,1,CSBS,Assistant Professor,2022,0.3,0,5,1,2,No,5,2,1,0,0,0,15,0,0
+Female,PHD ,Computer,1,4,CSBS,Assistant Professor,2022,14,3,3,0,3,No,5,4,1,0,1,1,15,1,0
+Female,MTECH,Computer,1,1,CSBS,Assistant Professor,2022,5,2,6,3,2,No,4,3,1,1,0,0,8,1,0
+Female,MTECH,Computer,1,1,CSBS,Assistant Professor,2022,13,4,15,2,3,No,5,3,1,1,0,0,15,0,0
+Female,MTECH,Computer,1,2,Computer Engineering,Assistant Professor,2022,14,2,18,1,1,No,5,5,1,0,0,0,15,1,0
+Male,MTECH,Information Technology,1,1,Computer Engineering,Assistant Professor,2022,8.1,2,10,2,2,No,2,3,0,1,0,0,12,0,1
+Male,MTECH,Computer,1,2,Computer Engineering,Assistant Professor,2017,4,1,5,2,3,No,3,3,1,1,0,0,15,1,0
+Female,PHD ,Computer,1,4,Computer Engineering,Assistant Professor,2015,7,2,15,2,4,Yes,2,2,1,1,0,0,15,1,0
+Female,ME,Information Technology,1,1,CSBS,Assistant Professor,2021,5,1,20,1,4,No,2,1,0,1,0,0,15,0,1
+Female,MTECh,Computer,0,1,CSBS,Assistant Professor,2020,4,1,5.5,3,2,No,3,2,0,1,0,0,15,0,0
+Male,PHD ,Computer,1,4,Computer Engineering,Assistant Professor,2012,20,4,12,4,2,Yes,4,4,1,1,1,1,15,1,0
+Male,MTECH,Computer,1,2,Computer Engineering,Assistant Professor,2015,6,2,6,1,2,No,5,4,1,1,0,0,15,1,0
+Female,MTECH,Computer,1,2,Computer Engineering,Assistant Professor,2018,5.9,2,16,2,4,Yes,4,3,1,1,1,0,15,0,0
+Male,MTECH,Information Technology,1,2,Computer Engineering,Assistant Professor,2017,4,1,3,4,1,No,2,1,1,1,1,0,15,0,1
+Female,MTECH,Computer,1,2,Computer Engineering,Assistant Professor,2014,10,4,20,4,3,Yes,5,3,1,1,1,0,15,1,0
+Female,MTECH,Computer,1,2,CSBS,Assistant Professor,2013,14.6,5,18,1,2,Yes,4,4,1,1,1,1,15,1,0
+Male,PHD ,Computer,1,4,Computer Engineering,Assistant Professor,2011,15.1,3,3,2,3,Yes,4,3,1,1,1,1,15,1,0
+Male,PHD ,Computer,1,2,Computer Engineering,Assistant Professor,2018,4,1,6,2,3,No,3,2,0,0,0,0,15,0,0
+Female,MTECH,Computer,0,1,CSBS,Assistant Professor,2021,1,1,5,1,4,No,4,3,1,1,0,0,15,1,0
+Female,MTECH,Computer,1,2,Computer Engineering,Assistant Professor,2019,9,4,10,2,2,Yes,3,1,1,1,0,0,15,0,1
+Male,MTECH,Information Technology,1,2,CSBS,Assistant Professor,2020,6,2,11,2,3,No,4,4,1,1,0,0,15,0,0
+Male,MTECH,Computer,1,3,Computer Engineering,Assistant Professor,2014,11,3,8,2,3,Yes,3,3,1,0,1,1,15,1,0
+Male,MTECH,Computer,1,2,Computer Engineering,Assistant Professor,2018,6,2,12,2,3,Yes,2,2,1,1,0,1,15,0,0
+Male,MTECH,Information Technology,1,2,Computer Engineering,Assistant Professor,2016,7.4,2,4,2,2,No,3,3,1,0,0,1,15,1,0
+Female,MTECH,Computer,0,2,CSBS,Assistant Professor,2019,5,2,5,1,4,Yes,4,3,1,0,0,0,15,0,0
+Female,MTECH,Computer,1,1,CSBS,Assistant Professor,2021,1.1,1,3,2,2,No,2,3,1,1,1,0,15,0,0
+Male,PHD ,Computer,1,4,CSBS,Assistant Professor,2014,10,2,15,2,3,Yes,1,2,0,1,0,1,15,0,1
+Female,MTECH,Computer,1,3,Computer Engineering,Assistant Professor,2015,9.7,3,7,1,3,No,3,3,1,1,0,0,15,0,0
+Male,PHD ,Computer,0,4,Computer Engineering,Assistant Professor,2015,15.4,4,9,2,4,Yes,3,3,1,1,0,0,15,0,0
+Female,MTECH,Computer,0,3,Computer Engineering,Assistant Professor,2016,10.2,3,10,2,4,Yes,2,1,1,1,0,1,15,1,1
+Female,MTECH,Information Technology,1,2,Computer Engineering,Assistant Professor,2016,6,2,13,1,2,No,4,3,1,0,0,0,15,0,0
+Male,MTECH,Computer,1,2,CSBS,Assistant Professor,2017,5,2,12,1,3,Yes,3,3,1,0,0,0,15,0,0
+Male,PHD ,Computer,1,4,Computer Engineering,Assistant Professor,2014,15,3,3,1,4,Yes,4,4,1,1,1,1,15,1,0

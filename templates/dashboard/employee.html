@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/dashboard/css/style.css">
+    <style>
+        /* Add custom CSS for layout adjustments */
+        body {
+            display: flex;
+            min-height: 100vh;
+        }
+
+        .container-fluid {
+            flex: 1;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .sidebar {
+            flex: 0 0 200px;
+            /* Fixed width for sidebar */
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-right: 1px solid #dee2e6;
+            position: sticky;
+            top: 0;
+            height: 100vh;
+            overflow-y: auto;
+        }
+
+        .content {
+            flex: 1;
+            padding: 20px;
+        }
+    </style>
+    <title>Attrition - Dashboard</title>
+</head>
+
+<body>
+    <!-- The sidebar -->
+    <nav class="sidebar">
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/analytics">Analytics</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/visualization">Visualization</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#departments">Departments</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/employee">Employee List</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Page content -->
+    <div class="container-fluid">
+        <main class="content">
+            <div class="container m-5" id="emp-list">
+                <h2>Employee List</h2>
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Department</th>
+                                <th scope="col">Qualification</th>
+                                <th scope="col">Specialty</th>
+                                <th scope="col">Salary</th>
+                                <th scope="col">Designation</th>
+                                <th scope="col">Year of Joining</th>
+                                <th scope="col">Work Experience (Years)</th>
+                                <th scope="col">Colleges Worked Before</th>
+                                <th scope="col">Year Since Last Promotion</th>
+                                <th scope="col">Distance from Home (km)</th>
+                                <th scope="col">Department Overtime</th>
+                                <th scope="col">Gender</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                    <script>
+                        var json_data = [
+            // Your JSON data here
+                        ];
+
+        // Reference to the table body
+        var tableBody = document.querySelector("#data-table tbody");
+
+        // Loop through the JSON data and populate the table
+        json_data.forEach(function (record) {
+            var row = document.createElement("tr");
+            for (var key in record) {
+                var cell = document.createElement("td");
+                cell.textContent = record[key];
+                row.appendChild(cell);
+            }
+            tableBody.appendChild(row);
+        });
+                    </script>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <!-- Add Bootstrap JS and jQuery (if needed) at the bottom of your HTML document -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script> -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+</body>
+
+</html>

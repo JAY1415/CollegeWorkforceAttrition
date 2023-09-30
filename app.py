@@ -24,14 +24,34 @@ def login():
 
     return render_template('Login/login.html')
 
-@app.route('/employee',methods=['GET'])
+@app.route('/departments')
+def departments():
+    return render_template('dashboard/department.html')
+
+
+@app.route('/employee',)
 def employee():
-    selected_col=df1[['Department','Qualification','Speciality','Salary','Designation','YearOfJoining','WorkExperince','NoOfCollegesWorked','YearSinceLastPromotion','DistanceFromHome','DepartmentOvertime','Gender']]
-    selected_data = df1[selected_col]
+    try:
+        # Verify that df1 is a valid DataFrame
+        if 'df1' not in globals() or df1 is None:
+            return "Error: df1 is not defined or is empty.", 500  # Return an error message and status code 500
 
+        selected_col = ['Department', 'Qualification', 'Speciality', 'Salary', 'Designation', 'YearOfJoining',
+                        'WorkExperince', 'NoOfCollegesWorked', 'YearSinceLastPromotion', 'DistanceFromHome',
+                        'DepartmentOvertime', 'Gender']
 
-    json_data = selected_data.to_json(orient='records')
-    return jsonify(json_data)
+        # Check if all columns in selected_col exist in df1
+        if not all(col in df1.columns for col in selected_col):
+            return "Error: One or more columns in selected_col do not exist in df1.", 400  # Return an error message and status code 400
+
+        selected_data = df1[selected_col]
+        json_data = selected_data.to_dict(orient='records')
+
+        # Render an HTML template with the JSON data
+        return render_template('dashboard/employee.html', data=json_data)
+    except Exception as e:
+        return str(e), 500
+   #return render_template('dashboard/employee.html')
 
 @app.route('/visualization')
 def visualization():

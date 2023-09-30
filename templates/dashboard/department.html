@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="static/dashboard/css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <title>Attrition - Dashboard</title>
+  </head>
+  <body>
+    <!-- The sidebar -->
+    <div class="sidebar">
+     <a href="#home">Home</a>
+        <a href="/analytics">Analytics</a>
+        <a href="/visualization">Visualization</a>
+        <a class="active" href="/departments">Departments</a>
+        <a href="/employee">Employee List</a>
+    </div>
+
+    <!-- Page content -->
+    <div class="content">
+      <h1 class="m-5">More insights</h1>
+      <div class="container overflow-hidden text-center">
+        <div class="row gy-5">
+          <div class="col-6">
+            <div class="p-3 border bg-light">
+              <h5>Gender</h5>
+              <table class="table m-3">
+                <thead style="color: #990000">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Department</th>
+                    <th scope="col">Male Attrition Rate</th>
+                    <th scope="col">Female Attrition Rate</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>College</td>
+                    <td>18%</td>
+                    <td>20%</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Computer</td>
+                    <td>25%</td>
+                    <td>5%</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>CSBS</td>
+                    <td>20%</td>
+                    <td>15%</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="p-3 border">
+              <h4>Salary</h4>
+              <table class="table m-3">
+                <thead style="color: #990000">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Department</th>
+                    <th scope="col">25k-50k</th>
+                    <th scope="col">50k-75k</th>
+                    <th scope="col">75k-1Lakh</th>
+                    <th scope="col">1 Lakh above</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>College</td>
+                    <td>18%</td>
+                    <td>20%</td>
+                    <td>25%</td>
+                    <td>5%</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Computer</td>
+                    <td>25%</td>
+                    <td>5%</td>
+                    <td>18%</td>
+                    <td>20%</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>CSBS</td>
+                    <td>20%</td>
+                    <td>15%</td>
+                    <td>18%</td>
+                    <td>20%</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="p-3 border bg-light">
+              <h4>Work Life Balance</h4>
+              <table class="table m-3">
+                <thead style="color: #990000">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Department</th>
+                    <th scope="col">1</th>
+                    <th scope="col">2</th>
+                    <th scope="col">3</th>
+                    <th scope="col">4</th>
+                    <th scope="col">5</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>College</td>
+                    <td>5%</td>
+                    <td>3%</td>
+                    <td>2%</td>
+                    <td>5%</td>
+                    <td>1%</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Computer</td>
+                    <td>5%</td>
+                    <td>3%</td>
+                    <td>2%</td>
+                    <td>5%</td>
+                    <td>1%</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>CSBS</td>
+                    <td>5%</td>
+                    <td>3%</td>
+                    <td>2%</td>
+                    <td>5%</td>
+                    <td>1%</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="p-3 border bg-light">
+              <h4>Ladies Facilities Available</h4>
+                <table class="table m-3 ">
+                  <thead style="color: #990000;">
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Department</th>
+                      <th scope="col">Available</th>
+                      <th scope="col">Not Available</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>College</td>
+                      <td>18%</td>
+                      <td>20%</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Computer</td>
+                      <td>25%</td>
+                      <td>5%</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>CSBS</td>
+                      <td>20%</td>
+                      <td>15%</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="p-3 border bg-light">
+              <h4>Year Since Last Promotion</h4>
+                <table class="table m-3 ">
+                  <thead style="color: #990000;">
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Department</th>
+                      <th scope="col">Promoted</th>
+                      <th scope="col">Not Promoted</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>College</td>
+                      <td>18%</td>
+                      <td>20%</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Computer</td>
+                      <td>25%</td>
+                      <td>5%</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>CSBS</td>
+                      <td>20%</td>
+                      <td>15%</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="p-3 border bg-light">
+              <h4>Research Culture</h4>
+              <table class="table m-3">
+                <thead style="color: #990000">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Department</th>
+                    <th scope="col">1</th>
+                    <th scope="col">2</th>
+                    <th scope="col">3</th>
+                    <th scope="col">4</th>
+                    <th scope="col">5</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>College</td>
+                    <td>5%</td>
+                    <td>3%</td>
+                    <td>2%</td>
+                    <td>5%</td>
+                    <td>1%</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Computer</td>
+                    <td>5%</td>
+                    <td>3%</td>
+                    <td>2%</td>
+                    <td>5%</td>
+                    <td>1%</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>CSBS</td>
+                    <td>5%</td>
+                    <td>3%</td>
+                    <td>2%</td>
+                    <td>5%</td>
+                    <td>1%</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
